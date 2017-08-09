@@ -1,45 +1,3 @@
-# Rapid ZSH Setup  
-
-[![N|Solid](http://ohmyz.sh/img/OMZLogo_BnW.png)](http://ohmyz.sh/)
-
-Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abviously with sleek theme.
-
-# Theme
-###
-#### [Dracula](https://draculatheme.com/zsh)
-[![N|Solid](https://draculatheme.com/assets/img/screenshots/zsh.png)](https://draculatheme.com/zsh/)
-# Plugins
-#### - [Composer](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#composer)
-#### - [Git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git)
-#### - [Sublime](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#sublime)
-#### - [Sudo](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#sudo)
-#### - [Web-search](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#web-search)
-#### - [extract]()
-#### - [Z]()
-
-### Installation
->sudo apt-get install zsh
-
->sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-### Post Installation
-
-Add zshrc in .bashrc for autoload
-
-```
-# Launch Zsh
-if [ -t 1 ]; then
-exec zsh
-fi
-```
-
-### Configuration
-
-- Edit **~/.zshrc** for more configuration
-``` subl ~/.zshrc ```
-- Replace it with
-```
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -132,6 +90,3 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 export PATH=~/.config/composer/vendor/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-
-```
-- source ~/.zshrc
