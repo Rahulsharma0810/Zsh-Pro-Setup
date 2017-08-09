@@ -1,13 +1,14 @@
 # Rapid ZSH Setup  
 
+
 [![N|Solid](http://ohmyz.sh/img/OMZLogo_BnW.png)](http://ohmyz.sh/)
 
 Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abviously with sleek theme.
 
 # Theme
 ###
-#### [Dracula](https://draculatheme.com/zsh)
-[![N|Solid](https://draculatheme.com/assets/img/screenshots/zsh.png)](https://draculatheme.com/zsh/)
+#### [Avit](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#avit)
+[![N|Solid](https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png)](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#avit)
 # Plugins
 #### - [Composer](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#composer)
 #### - [Git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git)
@@ -49,7 +50,7 @@ fi
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="Dracula"
+ZSH_THEME="avit"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -132,6 +133,5 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 export PATH=~/.config/composer/vendor/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-
 ```
 - source ~/.zshrc
