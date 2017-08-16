@@ -8,7 +8,7 @@ Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abv
 # Theme
 ###
 #### [Avit](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#avit)
-[![N|Solid](https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png)](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#avit)
+[![N|Solid](https://github.com/sindresorhus/pure/blob/master/screenshot.png)](https://github.com/sindresorhus/pure)
 # Plugins
 #### - [Composer](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#composer)
 #### - [Git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git)
@@ -40,17 +40,16 @@ fi
 ``` subl ~/.zshrc ```
 - Replace it with
 ```
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/rvs-hp/.oh-my-zsh
+  export ZSH=/home/rvs/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="refined"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -128,10 +127,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-###################################
-#### Composer & Vendor PATH	#######
-export PATH="$PATH:$HOME/.config/composer/vendor/bin"
-export PATH=~/.config/composer/vendor/bin:$PATH
-export PATH="/usr/local/sbin:$PATH"
+
 ```
 - source ~/.zshrc
