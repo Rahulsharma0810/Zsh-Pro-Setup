@@ -126,7 +126,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+export PATH=~/.composer/vendor/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
 
 ```
 - source ~/.zshrc
