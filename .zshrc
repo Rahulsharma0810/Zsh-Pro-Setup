@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=~/.oh-my-zsh
+ export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -52,7 +52,7 @@ ZSH_THEME="refined"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(composer git sublime sudo web-search extract z  zsh-syntax-highlighting)
+plugins=(composer git murcurial sublime sudo z zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,3 +87,11 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH=~/.composer/vendor/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
+
+
+######################
+# Gcloud Auto Complete
+
+#fpath=(~/.oh-my-zsh/plugins/gcloud-zsh-completion/src $fpath)
+#autoload -U compinit compdef
+#compinit
