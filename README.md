@@ -22,9 +22,9 @@ Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abv
 
 >sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
->brew install npm
+>brew install npm && npm install --global pure-prompt
 
->npm install --global pure-prompt
+> brew install homebrew/php/php72
 
 ### Post Installation
 
