@@ -9,7 +9,6 @@
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="refined"
 
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -89,10 +88,15 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 export PATH=~/.composer/vendor/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 
+######################
+# Python3 Aliases
+alias python2='python'
+alias python='python3'
+alias pip2='/usr/local/bin/pip'
+alias pip='pip3'
 
 ######################
 # Gcloud Auto Complete
-
-#fpath=(~/.oh-my-zsh/plugins/gcloud-zsh-completion/src $fpath)
-#autoload -U compinit compdef
-#compinit
+fpath=(~/.oh-my-zsh/plugins/gcloud-zsh-completion/src $fpath)
+autoload -U compinit compdef
+compinit

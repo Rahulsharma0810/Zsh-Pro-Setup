@@ -37,7 +37,6 @@ exec zsh
 fi
 ```
 
-
 ### Configuration
 
 - Edit **~/.zshrc** for more configuration
@@ -45,3 +44,13 @@ fi
 - Replace it with ```~/.zshrc``` content
 - Uncomment Section Accroding to your needs.
 - source ~/.zshrc
+
+## Addons
+
+- Insalling Python3
+	- ```brew install python3```
+	- Uncomment Python Section in ```.zshrc```
+
+- Gcloud Autocomplete
+	- git clone https://github.com/littleq0903/gcloud-zsh-completion.git ~/.oh-my-zsh/plugins/
+	- Uncomment Section Gcloud in ```.zshrc```
