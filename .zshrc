@@ -90,10 +90,11 @@ export PATH="/usr/local/sbin:$PATH"
 
 ######################
 # Python3 Aliases
-alias python2='python'
-alias python='python3'
-alias pip2='/usr/local/bin/pip'
-alias pip='pip3'
+alias python2='/usr/local/bin/python2.7'
+alias pip2='/usr/local/bin/pip2.7'
+
+alias python='/usr/local/bin/python3.6'
+alias pip='/usr/local/bin/pip3.6'
 
 ######################
 # Gcloud Auto Complete
