@@ -6,9 +6,9 @@
 Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abviously with sleek theme.
 
 # Theme
-###
-#### [Pure](https://github.com/sindresorhus/pure#getting-started)
+#### [Refined](https://github.com/sindresorhus/pure#getting-started)
 [![N|Solid](https://github.com/sindresorhus/pure/blob/master/screenshot.png)](https://github.com/sindresorhus/pure)
+
 # Plugins
 #### - [Composer](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#composer)
 #### - [Git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#git)
@@ -17,14 +17,15 @@ Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abv
 #### - [Sudo](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#sudo)
 #### - [Z](https://github.com/rupa/z)
 
-### Installation
->sudo apt-get install zsh
+## Installation
+>brew install zsh
 
 >sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 >brew install npm && npm install --global pure-prompt
 
-> brew install homebrew/php/php72
+#### Theme Installation
+```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
 
 ### Post Installation
 
