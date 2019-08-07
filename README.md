@@ -18,7 +18,7 @@ Repo's Main Moto to provide rapid **ohmyzsh** setup with awesome plugins and abv
 #### - [Z](https://github.com/rupa/z)
 
 ## Installation
->brew install zsh
+>brew install zsh zsh-syntax-highlighting
 
 >sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
